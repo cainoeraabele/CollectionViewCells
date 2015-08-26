@@ -67,7 +67,7 @@
                             <outlet property="delegate" destination="BPT-oZ-HA7" id="ike-RB-Bho"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" id="cSN-OM-T6v"/>
+                    <navigationItem key="navigationItem" title="CollectionViewCells" id="cSN-OM-T6v"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oeu-ML-SqM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
