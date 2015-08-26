@@ -20,8 +20,6 @@ class CollectionViewController: UICollectionViewController {
         
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! CircleWithNotificationCollectionViewCell
         
-        cell.backgroundColor = UIColor.lightGrayColor()
-        
         cell.imageView.layer.cornerRadius = cell.imageView.frame.size.width/2
         cell.imageView.clipsToBounds = true
         
